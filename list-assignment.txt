@@ -1,0 +1,5 @@
+Assume you are a store owner and you have 20 items you are selling . write a python program that allows 
+1.Me to remove an item if it is no longer in the store 
+2. add new arrival items
+3. sort item from the last item that enter the store 
+4. Replace item in a particular number in the store
