@@ -1,14 +1,32 @@
 products = ["rice","beans","plantain","chocolate","icecream","biro","bags"]
-# products.pop(6)
-# print(products)
+commodity = input("enter item: ")
+# if products not in products:
+#     products.append(commodity)
+#     print(products)
+# else:  
 
-products.append("orange")
-# print(products)
+# adding item to product
+for i in products:
+    if commodity in products:
+        print("Product already avaliable")
+        break
+    else:
+        products.append(commodity)
+        print(f'add {commodity} successfully')
+        print(products)
 
 
-product1 = products.copy()
-product1.reverse()
-print(product1)
+# removing items from product
+get_item_index = products.index(commodity)
+products.pop(get_item_index)
+print(products)
+
+"""
+    pro_index = products.index(commodity)
+    print((pro_index))
+    products.pop(pro_index)
+    print(products)
+"""
 
 
 # products.insert(1, "chocolate")
