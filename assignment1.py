@@ -15,7 +15,6 @@ for i in products:
         print(f'add {commodity} successfully')
         print(products)
 
-
 # removing items from product
 get_item_index = products.index(commodity)
 products.pop(get_item_index)

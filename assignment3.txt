@@ -1,0 +1,1 @@
+rewrite assignment 1 with  function and make it dynamic 
